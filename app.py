@@ -3,10 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # URLs de los archivos CSV
-clientes_url = "https://raw.githubusercontent.com/Aramos301991/Dashboard-Chocolate-Export-/8714fe45bacd0df57579f6c87b995fada67ef572/clientes.csv"
-mercados_url = "https://raw.githubusercontent.com/Aramos301991/Dashboard-Chocolate-Export-/8714fe45bacd0df57579f6c87b995fada67ef572/mercados.csv"
-exportaciones_url = "https://raw.githubusercontent.com/Aramos301991/Dashboard-Chocolate-Export-/8714fe45bacd0df57579f6c87b995fada67ef572/exportaciones.csv"
-barreras_url = "https://raw.githubusercontent.com/Aramos301991/Dashboard-Chocolate-Export-/8714fe45bacd0df57579f6c87b995fada67ef572/barreras.csv"
+clientes_url = "https://raw.githubusercontent.com/Carlos0127/Dashboard-Chocolate-Export-/ad2ca5ec865ebc2b68b80a7cd70d98b18476191d/clientes.csv"
+mercados_url = "https://raw.githubusercontent.com/Carlos0127/Dashboard-Chocolate-Export-/ad2ca5ec865ebc2b68b80a7cd70d98b18476191d/mercados.csv"
+exportaciones_url = "https://raw.githubusercontent.com/Carlos0127/Dashboard-Chocolate-Export-/ad2ca5ec865ebc2b68b80a7cd70d98b18476191d/exportaciones.csv"
+barreras_url = "https://raw.githubusercontent.com/Carlos0127/Dashboard-Chocolate-Export-/ad2ca5ec865ebc2b68b80a7cd70d98b18476191d/barreras.csv"
 
 clientes = pd.read_csv(clientes_url)
 mercados = pd.read_csv(mercados_url)
